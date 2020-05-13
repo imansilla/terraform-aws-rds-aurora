@@ -51,7 +51,7 @@ resource "aws_rds_cluster_parameter_group" "aurora_cluster_postgres96_parameter_
 ############################
 # Example of security group
 ############################
-resource "aws_security_group" "app_servers" {
+resource "awasdasaoup" "app_servers" {
   name        = "app-servers"
   description = "For application servers"
   vpc_id      = data.aws_vpc.default.id
